@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
+  <!-- Doctype declaration is fine. You are missing the <head> section (and within it, the required <title> element, that marks your page with a title, used by Google and browsers, crucial to valid and findable web pages) that is required before the opening <body> tag. I will add it in with other comments and corrections so you can see the change when I issue a pull request to you. Always run your html past the HTML Validator at https://validator.w3.org and you can then ensure that your markup is valid.  -->
+<head>
+  <title>Week 7 Assignment</title>
+<!-- the <head> section of your html document is also where you insert your hyperlink through to an external stylesheet (or any external javascripts. It does not look like you linked to your stylesheet here, so I will add it, but please note the syntax of this link. -->
+<!-- requirement for you to add in an html comment above the external css -->
+<link rel="stylesheet" href="css.css">
+</head>
 <body>
 <h1> Week 5 assignment</h1>
 <h2> heading # 2 </h2>
 <h3> Heading # 3 </h3>
 <h4> Heading # 4 </h4>
 <h5> The fifth and final heading... </h5>
-<a href=”https://www.google.com”>ask this link lifes burning questions</a>
+<a href="https://www.google.com">ask this link lifes burning questions</a>
 <a href="https://www.bing.com">This is a different link but yes you can also ask it lifes burning questions</a>
 <img src="https://www.liveabout.com/thmb/WtcbD2apJvJz55RelHxqH782sT8=/1005x640/filters:no_upscale():max_bytes(150000):strip_icc()/collegememes28-5c3cf1f4c9e77c00014b05f4.jpg" alt="W3Schools.com" width="220" height="170">
 <button>BUTTON</button>
@@ -19,5 +26,12 @@
 <li> assigment completion laoding....99%... </li>
 <li> Assigment completed...100%..</li>
 </ol>
+<!-- final comments for assessment:
+* missing inline style
+* missing styling through id
+* missing style through class
+* missing style via id and class
+* missing semantic figure block around image with caption, not centered or styled
+-->
 </body>
 </html>
